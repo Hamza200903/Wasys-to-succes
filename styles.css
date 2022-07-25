@@ -1,0 +1,72 @@
+
+body{
+    background-color: rgb(0, 207, 214);
+    color:rgb(11, 12, 12);
+    width:95% ;
+    text-align: center;
+    }
+
+    hr{
+        border-style: none;
+        border-top-style: dotted;
+        border-color: red;
+        border-width: 10px;
+          width: 30%;
+    }
+    
+    
+    
+    td,th,table,tr{
+    border:2px solid red;
+    border-collapse: collapse;
+    }
+
+    table{
+    width:175px;
+    }
+    
+    article{
+    text-align: center;
+    border:solid rgb(253, 252, 252);
+    border-top:2px solid rgb(253, 252, 252) ;
+    border-bottom:2px solid rgb(253, 252, 252) ;
+    border-width:10% ;
+    }
+    
+    #channel{
+    background-color: crimson;
+    border:3px solid rgb(253, 252, 252) ;
+    color:antiquewhite;
+    }
+    /*
+        for class we use the . in css 
+
+        when you use class you can name the classes same so if you want to specify i single thing it is better to use id.
+        you should use class when you want style a group of relatedn items 
+    */
+
+    h1{
+        color:brown;
+        font-size: 50px;
+        font-family:'Brush Script MT' ,cursive;
+    }
+
+    img{
+        background-color: rgb(0, 207, 214);
+    }
+    /*
+        this is a comment in css
+    */
+
+    a:hover {
+        color: green;
+      }
+
+      a:visited {
+        color:goldenrod;
+      }
+
+      a:active {
+        background-color:palegreen;
+        color:black;
+      }
